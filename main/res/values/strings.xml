@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project1OL</string>
+    <string name="companyName">Ortega Librería y Papelería</string>
+    <string name="whatTheyDo">Librería, papelería, juguetería, bazar, etc.</string>
+    <string name="timetable">De lunes a viernes de 9:30 a 13:00 y de 17:00 a 20:00
+    sábados de 9:30 a 13:00</string>
+    <string name="telephone">922 44 01 36</string>
+    <string name="mail">ortegalibreria@gmail.com</string>
+    <string name="address">Calle Maximiliano Pérez Díaz, 12, 38730, Villa de Mazo</string>
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mainImageStyle">
+        <item name="android:layout_height">@dimen/mainImageHeight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:src">@drawable/logo1</item>
+        <item name="android:background">@color/mainBackground</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="infoLine">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/infoPadding</item>
+        <item name="android:background">@color/ifoBackgroudn</item>
+    </style>
+
+    <style name="images">
+        <item name="android:layout_height">@dimen/imageHeight</item>
+        <item name="android:layout_width">@dimen/imageWidth</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="texts">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/imageTextSeparation</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dividerHeight</item>
+        <item name="android:src">@color/dividerColor</item>
+    </style>
+
+</resources>

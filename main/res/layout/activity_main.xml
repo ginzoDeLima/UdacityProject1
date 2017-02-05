@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:divider="@color/colorPrimaryDark"
+    tools:context="com.example.aortega.project1ol.MainActivity">
+
+    <ImageView
+        style="@style/mainImageStyle"/>
+
+    <ImageView
+        style="@style/divider"/>
+
+
+    <RelativeLayout
+        style="@style/infoLine">
+
+        <ImageView
+            style="@style/images"
+            android:src="@drawable/ic_case"
+            android:id="@+id/logo1"/>
+
+        <TextView
+            style="@style/texts"
+            android:text="@string/companyName"
+            android:layout_toRightOf="@id/logo1"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/divider"/>
+
+    <RelativeLayout
+        style="@style/infoLine">
+
+        <ImageView
+            style="@style/images"
+            android:src="@drawable/ic_wwedo"
+            android:id="@+id/logo2"/>
+
+        <TextView
+            style="@style/texts"
+            android:text="@string/whatTheyDo"
+            android:layout_toRightOf="@id/logo2"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/divider"/>
+
+    <RelativeLayout
+        style="@style/infoLine">
+
+        <ImageView
+            style="@style/images"
+            android:src="@drawable/ic_clock"
+            android:id="@+id/logo3"/>
+
+        <TextView
+            style="@style/texts"
+            android:text="@string/timetable"
+            android:layout_toRightOf="@id/logo3"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/divider"/>
+
+    <RelativeLayout
+        style="@style/infoLine">
+
+        <ImageView
+            style="@style/images"
+            android:src="@drawable/ic_location"
+            android:id="@+id/logo6"/>
+
+        <TextView
+            style="@style/texts"
+            android:text="@string/address"
+            android:layout_toRightOf="@id/logo6"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/divider"/>
+
+    <RelativeLayout
+        style="@style/infoLine">
+
+        <ImageView
+            style="@style/images"
+            android:src="@drawable/ic_phone"
+            android:id="@+id/logo4"/>
+
+        <TextView
+            style="@style/texts"
+            android:text="@string/telephone"
+            android:layout_toRightOf="@id/logo4"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/divider"/>
+
+    <RelativeLayout
+        style="@style/infoLine">
+
+        <ImageView
+            style="@style/images"
+            android:src="@drawable/ic_mail"
+            android:id="@+id/logo5"/>
+
+        <TextView
+            style="@style/texts"
+            android:text="@string/mail"
+            android:layout_toRightOf="@id/logo5"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/divider"/>
+
+</LinearLayout>
